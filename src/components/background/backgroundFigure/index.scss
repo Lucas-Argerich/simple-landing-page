@@ -1,0 +1,8 @@
+.backgroundFigure {
+    width: calc(100vw * 0.4);
+    height: calc(100vw * 0.4);
+    border-radius: 50%;
+    background: radial-gradient(53.9% 53.9% at 77.01% 30.21%, rgba(31, 195, 231, 0.84375) 0%, #1F34E7 100%);
+    filter: blur(130px);
+    position: absolute;
+}
