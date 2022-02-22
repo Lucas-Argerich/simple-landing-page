@@ -13,8 +13,8 @@ export default function App() {
     <Background />
     <NavBar />
       <Routes>
-        <Route path='*' element={<Landing />} />
-        <Route path='disclaimer' element={<Disclaimer />} />
+        <Route path='simple-landing-page/*' element={<Landing />} />
+        <Route path='simple-landing-page/disclaimer' element={<Disclaimer />} />
       </Routes>
     </BrowserRouter>
       
