@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+.App {
+    min-height: 100vh;
+}
