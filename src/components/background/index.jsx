@@ -11,7 +11,7 @@ export default function Background() {
 
     return (
         <div className='background'>
-            <div ref={ref} className='backgroundFigure blur(120)'
+            <div ref={ref} className='backgroundFigure'
                 style={
                     {
                         right: -width * 0.1,
