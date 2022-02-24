@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { ReactComponent as Logo } from './logo.svg'
 import './index.scss'
+import Button from '../button'
 
 export default function NavBar() {
   return (
@@ -13,7 +14,7 @@ export default function NavBar() {
         <li><Link to={'simple-landing-page/disclaimer'}>About us</Link></li>
         <li><Link to={'simple-landing-page/disclaimer'}>Contact us</Link></li>
       </ul>
-      <p>sign up</p>
+      <Button text={"Sign up"}/>
     </nav>
   )
 }
