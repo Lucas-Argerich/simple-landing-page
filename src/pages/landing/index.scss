@@ -3,15 +3,30 @@ main {
     flex-direction: column;
 
     section {
-        margin: 80px 120px;
+        margin: 20px 40px;
+
+        @media (min-width:768px) {
+            margin: 80px 120px;
+        }
 
         &.headerSection {
             display: flex;
             justify-content: space-between;
+            flex-direction: column;
+
+            @media (min-width:768px) {
+                flex-direction: row;
+            }
 
             .leftSide {
-                width: 600px;
-                padding: 100px 0 0;
+                width: 100%;
+                padding: 60px 0 0;
+
+                @media (min-width:768px) {
+                    width: 600px;
+                    padding: 100px 0 0;
+                }
+
                 h2 {
                     font-size: 4.8rem;
 
@@ -24,6 +39,19 @@ main {
                     width: 80%;
                     font-size: 1.4rem;
                     margin: 20px 0 30px;
+                }
+            }
+
+            .rightSide {
+                margin-top: 60px;
+                transform: scale(0.7);
+
+                @media (min-width:768px) {
+                    margin-top: 0;
+                    transform: scale(0.9);
+                }
+                @media (min-width:1024px) {
+                    transform: scale(1);
                 }
             }
         }
