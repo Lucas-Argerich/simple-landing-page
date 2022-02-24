@@ -1,0 +1,31 @@
+main {
+    display: flex;
+    flex-direction: column;
+
+    section {
+        margin: 80px 120px;
+
+        &.headerSection {
+            display: flex;
+            justify-content: space-between;
+
+            .leftSide {
+                width: 600px;
+                padding: 100px 0 0;
+                h2 {
+                    font-size: 4.8rem;
+
+                    span {
+                        color: #9BA4ED;
+                    }
+                }
+
+                p {
+                    width: 80%;
+                    font-size: 1.4rem;
+                    margin: 20px 0 30px;
+                }
+            }
+        }
+    }
+}
