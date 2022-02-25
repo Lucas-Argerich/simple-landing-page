@@ -5,6 +5,7 @@ import { ReactComponent as VrHeadsetLogo } from './akar-icons_vr-ar.svg'
 import { ReactComponent as SurroundLogo } from './surroundLogo.svg'
 import { ReactComponent as ControllerLogo } from './maki_gaming.svg'
 import { ReactComponent as MoneyLogo } from './tabler_businessplan.svg'
+import gamerImage from './gamerImage.png'
 import './index.scss'
 import CardContainer from '../../components/cardContainer'
 import Card from '../../components/card'
@@ -12,7 +13,7 @@ import Card from '../../components/card'
 export default function Landing() {
     return (
         <main>
-            <section className='headerSection'>
+            <section className='headerSection twoSidedSection'>
                 <div className='leftSide'>
                     <h2><span>Explore</span> the fascinating world of VR</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum. Etiam interdum nulla neque, eu elementum arcu fermentum vel.</p>
@@ -41,6 +42,16 @@ export default function Landing() {
                         <h3>Make meetings and tours easier</h3>
                     </Card>
                 </CardContainer>
+            </section>
+            <section className='middleSection twoSidedSection'>
+                <div className='leftSide'>
+                    <img src={gamerImage} alt="" />
+                </div>
+                <div className='rightSide'>
+                    <h4><span>Build</span> a whole new world</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</p>
+                </div>
+
             </section>
         </main>
 
