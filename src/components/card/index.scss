@@ -1,0 +1,21 @@
+.card {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    background: #3E3C3C27;
+    backdrop-filter: blur(30px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+        font-style: normal;
+        line-height: 21px;
+        text-align: center;
+        display: inline-block;
+        margin: 24px 19px 0;
+    }
+}

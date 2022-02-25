@@ -50,10 +50,16 @@ main {
                     margin-top: 0;
                     transform: scale(0.9);
                 }
+
                 @media (min-width:1024px) {
                     transform: scale(1);
                 }
             }
+        }
+
+        &.cardSection {
+            display: flex;
+            justify-content: center;
         }
     }
 }
