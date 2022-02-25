@@ -1,11 +1,12 @@
 .cardContainer {
     width: 100%;
     max-width: 1000px;
-    height: 225px;
+    min-height: 225px;
     background: #3E3C3C27;
     border-radius: 20px;
     backdrop-filter: blur(30px);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }

@@ -1,6 +1,7 @@
 .card {
     width: 200px;
     height: 200px;
+    margin: 19px;
     border-radius: 20px;
     background: #3E3C3C27;
     backdrop-filter: blur(30px);
@@ -8,6 +9,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    transition: 200ms ease-in-out;
+
+    &:hover{
+        background: #3E3C3C10;
+    }
 
     h3 {
         font-size: 1.8rem;
