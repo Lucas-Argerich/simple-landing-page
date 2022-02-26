@@ -9,15 +9,14 @@ import Landing from './pages/landing'
 export default function App() {
   return (
     <div className='App'>
-    <BrowserRouter>
-    <Background />
-    <NavBar />
-      <Routes>
-        <Route path='simple-landing-page/*' element={<Landing />} />
-        <Route path='simple-landing-page/disclaimer' element={<Disclaimer />} />
-      </Routes>
-    </BrowserRouter>
-      
+      <BrowserRouter>
+        <Background />
+        <NavBar />
+        <Routes>
+          <Route path='simple-landing-page/*' element={<Landing />} />
+          <Route path='simple-landing-page/disclaimer' element={<Disclaimer />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }
