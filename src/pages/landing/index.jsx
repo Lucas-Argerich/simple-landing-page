@@ -45,7 +45,7 @@ export default function Landing() {
             </section>
             <section className='middleSection twoSidedSection'>
                 <div className='leftSide'>
-                    <img src={gamerImage} alt="" />
+                    <img src={gamerImage} alt="" draggable={false} style={{ userDrag: "none", userSelect: "none" }} />
                 </div>
                 <div className='rightSide'>
                     <h4><span>Build</span> a whole new world</h4>
