@@ -62,11 +62,22 @@ main {
         }
 
         &.middleSection {
-            margin: 100px 120px;
+            margin: 20px 40px;
             align-items: center;
 
+            @media (min-width:768px) {
+                margin: 100px 120px;
+
+            }
+
             .rightSide {
-                width: 50%;
+                @media (min-width:425px) {
+                    margin: 0 0 0 20px;
+                }
+
+                @media (min-width:768px) {
+                    width: 50%;
+                }
 
                 h4 {
                     font-size: 4.8rem;
@@ -84,9 +95,23 @@ main {
             }
 
             .leftSide {
-                width: 50%;
+                width: auto;
                 display: flex;
                 justify-content: center;
+                transform: scale(0.6);
+
+
+                @media (min-width: 768px) {
+                    width: 50%;
+                    transform: scale(1);
+                }
+
+                img {
+                    width: inherit;
+                    min-width: 300px;
+                }
+
+
             }
         }
 
@@ -103,8 +128,8 @@ main {
         .cardContainer {
             display: flex;
             flex-direction: column;
-            margin: 80px 0 150px;
-            padding: 60px;
+            margin: 80px 10px 150px;
+            padding: 60px 20px;
 
             h4 {
                 font-size: 4.8rem;
@@ -115,6 +140,7 @@ main {
                 font-size: 1.4rem;
                 width: 60%;
                 text-align: center;
+                margin: 25px 0;
             }
         }
 
