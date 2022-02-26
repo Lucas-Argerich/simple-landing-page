@@ -15,6 +15,7 @@ export default function BackgroundComponent() {
             <BackgroundFigure left={-width * 0.6} top={400} opacity={0.3} />
             <BackgroundFigure left={0} top={800} opacity={0.2} />
             <BackgroundFigure right={-width * 0.55} top={1400} opacity={0.3} />
+            <BackgroundFigure left={-width * 0.35} bottom={-width * 0.35} opacity={0.3} />
         </div>
     )
 }
