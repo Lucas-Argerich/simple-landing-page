@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/simple-landing-page/static/css/main.35946255.css",
-    "main.js": "/simple-landing-page/static/js/main.6d081a08.js",
+    "main.css": "/simple-landing-page/static/css/main.6a0fffb8.css",
+    "main.js": "/simple-landing-page/static/js/main.8dd28041.js",
+    "static/media/gamerImage.png": "/simple-landing-page/static/media/gamerImage.ce71f8c5c6b266c2515d.png",
     "static/media/Image.png": "/simple-landing-page/static/media/Image.5cd8bb70acebab5c7c68.png",
+    "static/media/surroundLogo.svg": "/simple-landing-page/static/media/surroundLogo.86a3b5de86895de66eb91b1b4098600b.svg",
+    "static/media/tabler_businessplan.svg": "/simple-landing-page/static/media/tabler_businessplan.8f814461d47dd1dbca402d94cfa22c19.svg",
     "static/media/logo.svg": "/simple-landing-page/static/media/logo.d510046399f452f76a060bc6bbbff4b6.svg",
+    "static/media/akar-icons_vr-ar.svg": "/simple-landing-page/static/media/akar-icons_vr-ar.8091260db270c77ba144c0b2ac8273bb.svg",
+    "static/media/maki_gaming.svg": "/simple-landing-page/static/media/maki_gaming.24965fe2db90e94b38270b3a9c1aac5e.svg",
     "index.html": "/simple-landing-page/index.html",
-    "main.35946255.css.map": "/simple-landing-page/static/css/main.35946255.css.map",
-    "main.6d081a08.js.map": "/simple-landing-page/static/js/main.6d081a08.js.map"
+    "main.6a0fffb8.css.map": "/simple-landing-page/static/css/main.6a0fffb8.css.map",
+    "main.8dd28041.js.map": "/simple-landing-page/static/js/main.8dd28041.js.map"
   },
   "entrypoints": [
-    "static/css/main.35946255.css",
-    "static/js/main.6d081a08.js"
+    "static/css/main.6a0fffb8.css",
+    "static/js/main.8dd28041.js"
   ]
 }
