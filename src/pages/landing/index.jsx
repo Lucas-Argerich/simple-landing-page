@@ -53,6 +53,13 @@ export default function Landing() {
                 </div>
 
             </section>
+            <footer>
+                <CardContainer>
+                    <h4>Get in touch with us</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut cursus ac ipsum sed rhoncus. Nam euismod auctor ipsum.</p>
+                    <Button text={"Click here"} />
+                </CardContainer>
+            </footer>
         </main>
 
     )

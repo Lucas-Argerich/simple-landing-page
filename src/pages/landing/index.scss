@@ -61,11 +61,11 @@ main {
             }
         }
 
-        &.middleSection{
+        &.middleSection {
             margin: 100px 120px;
             align-items: center;
 
-            .rightSide{
+            .rightSide {
                 width: 50%;
 
                 h4 {
@@ -83,7 +83,7 @@ main {
                 }
             }
 
-            .leftSide{
+            .leftSide {
                 width: 50%;
                 display: flex;
                 justify-content: center;
@@ -94,5 +94,27 @@ main {
             display: flex;
             justify-content: center;
         }
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+
+        .cardContainer {
+            display: flex;
+            flex-direction: column;
+            margin: 80px 0 150px;
+            padding: 60px;
+
+            h4 {
+                font-size: 4.8rem;
+            }
+            p{
+                font-size: 1.4rem;
+                width: 60%;
+                text-align: center;
+            }
+        }
+
     }
 }
