@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { ReactComponent as Logo } from './logo.svg'
+import { ReactComponent as Logo } from './assets/logo.svg'
 import './index.scss'
-import Button from '../button'
+import Button from '../buttonComponent'
 
 export default function NavBar() {
   return (

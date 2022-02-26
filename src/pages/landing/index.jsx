@@ -1,14 +1,14 @@
 import React from 'react'
-import Button from '../../components/button'
+import Button from '../../components/buttonComponent'
 import RobotComponent from '../../components/robotComponent'
-import { ReactComponent as VrHeadsetLogo } from './akar-icons_vr-ar.svg'
-import { ReactComponent as SurroundLogo } from './surroundLogo.svg'
-import { ReactComponent as ControllerLogo } from './maki_gaming.svg'
-import { ReactComponent as MoneyLogo } from './tabler_businessplan.svg'
-import gamerImage from './gamerImage.png'
+import { ReactComponent as VrHeadsetLogo } from './assets/akar-icons_vr-ar.svg'
+import { ReactComponent as SurroundLogo } from './assets/surroundLogo.svg'
+import { ReactComponent as ControllerLogo } from './assets/maki_gaming.svg'
+import { ReactComponent as MoneyLogo } from './assets/tabler_businessplan.svg'
+import gamerImage from './assets/gamerImage.png'
 import './index.scss'
 import CardContainer from '../../components/cardContainer'
-import Card from '../../components/card'
+import Card from '../../components/cardComponent'
 
 export default function Landing() {
     return (

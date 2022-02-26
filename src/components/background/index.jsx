@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from 'react'
 import BackgroundFigure from './backgroundFigure'
 import './index.scss'
 
-export default function Background() {
+export default function BackgroundComponent() {
     const [width, setWidth] = useState(window.innerWidth * 0.4)
     const ref = useRef(null)
     useEffect(() => {

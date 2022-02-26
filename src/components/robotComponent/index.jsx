@@ -1,6 +1,6 @@
 import React from 'react'
 import ElipseFigure from './elipseFigure'
-import robotImage from './Image.png'
+import robotImage from './assets/Image.png'
 
 export default function RobotComponent() {
     return (
