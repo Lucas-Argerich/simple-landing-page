@@ -11,7 +11,9 @@ export default function BackgroundComponent() {
 
     return (
         <div className='background'>
-            <BackgroundFigure ref={ref} right={-width * 0.1} top={-width * 0.2} opacity={0.35} />
+            <div ref={ref}>
+                <BackgroundFigure right={-width * 0.1} top={-width * 0.2} opacity={0.35} />
+            </div>
             <BackgroundFigure left={-width * 0.6} top={400} opacity={0.3} />
             <BackgroundFigure left={0} top={800} opacity={0.2} />
             <BackgroundFigure right={-width * 0.55} top={1400} opacity={0.3} />
