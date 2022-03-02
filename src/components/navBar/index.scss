@@ -1,23 +1,47 @@
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 33px 77px;
+    position: relative;
 
-    p {
-        padding-top: 10px;
+    .topNavSection {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 33px 77px;
     }
 
-    ul {
+    .deployedNav {
         display: flex;
+        justify-content: space-evenly;
+        margin-top: 10px;
+        position: absolute;
+        width: 100%;
+    }
 
-        li {
-            margin: 0 50px;
+    a {
+        font-weight: 500;
+        font-size: 1.6rem;
+    }
 
-            a {
-                font-weight: 500;
-                font-size: 1.6rem;
+
+
+    @media (min-width:769px) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 33px 77px;
+
+        p {
+            padding-top: 10px;
+        }
+
+        ul {
+            display: flex;
+
+            li {
+                margin: 0 50px;
             }
         }
+
+
     }
+
 }
