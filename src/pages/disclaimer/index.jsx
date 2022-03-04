@@ -9,8 +9,8 @@ export default function Disclaimer() {
       <AttentionIcon width={100} height={100} style={{ backdropFilter: "blur(30px)", opacity: 0.8 }} />
       <h2>This is a <span>landing page model</span>, no real services or information is shown here. </h2>
       <div className='socialMedia'>
-        <a href='https://www.linkedin.com/in/lucas-argerich/'><LinkedInIcon width={60} height={60} /></a>
-        <a href='https://github.com/Lucas-Argerich'><GithubIcon width={60} height={60} /></a>
+        <a href='https://www.linkedin.com/in/lucas-argerich/' target="_blank"><LinkedInIcon width={60} height={60} /></a>
+        <a href='https://github.com/Lucas-Argerich' target="_blank"><GithubIcon width={60} height={60} /></a>
       </div>
     </main>
   )
