@@ -12,7 +12,7 @@ import Card from '../../components/cardComponent'
 
 export default function Landing() {
     return (
-        <main>
+        <main className='landingMain'>
             <section className='headerSection twoSidedSection'>
                 <div className='leftSide'>
                     <h2><span>Explore</span> the fascinating world of VR</h2>
