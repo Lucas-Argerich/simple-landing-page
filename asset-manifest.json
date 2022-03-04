@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simple-landing-page/static/css/main.df3c243e.css",
-    "main.js": "/simple-landing-page/static/js/main.e3d67176.js",
+    "main.js": "/simple-landing-page/static/js/main.efedeb96.js",
     "static/media/gamerImage.png": "/simple-landing-page/static/media/gamerImage.ce71f8c5c6b266c2515d.png",
     "static/media/Image.png": "/simple-landing-page/static/media/Image.5cd8bb70acebab5c7c68.png",
     "static/media/surroundLogo.svg": "/simple-landing-page/static/media/surroundLogo.86a3b5de86895de66eb91b1b4098600b.svg",
@@ -15,10 +15,10 @@
     "static/media/arrow.svg": "/simple-landing-page/static/media/arrow.30161600cf3b86b1113b41f84bfbdb99.svg",
     "static/media/noun-attention-2960519.svg": "/simple-landing-page/static/media/noun-attention-2960519.87647483bddcb0ffcf4e57d77c958ef5.svg",
     "main.df3c243e.css.map": "/simple-landing-page/static/css/main.df3c243e.css.map",
-    "main.e3d67176.js.map": "/simple-landing-page/static/js/main.e3d67176.js.map"
+    "main.efedeb96.js.map": "/simple-landing-page/static/js/main.efedeb96.js.map"
   },
   "entrypoints": [
     "static/css/main.df3c243e.css",
-    "static/js/main.e3d67176.js"
+    "static/js/main.efedeb96.js"
   ]
 }
