@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/simple-landing-page/static/css/main.608f1465.css",
+    "main.css": "/simple-landing-page/static/css/main.7101b3aa.css",
     "main.js": "/simple-landing-page/static/js/main.e2745856.js",
     "static/media/gamerImage.png": "/simple-landing-page/static/media/gamerImage.ce71f8c5c6b266c2515d.png",
     "static/media/Image.png": "/simple-landing-page/static/media/Image.5cd8bb70acebab5c7c68.png",
@@ -11,11 +11,11 @@
     "static/media/maki_gaming.svg": "/simple-landing-page/static/media/maki_gaming.24965fe2db90e94b38270b3a9c1aac5e.svg",
     "index.html": "/simple-landing-page/index.html",
     "static/media/arrow.svg": "/simple-landing-page/static/media/arrow.30161600cf3b86b1113b41f84bfbdb99.svg",
-    "main.608f1465.css.map": "/simple-landing-page/static/css/main.608f1465.css.map",
+    "main.7101b3aa.css.map": "/simple-landing-page/static/css/main.7101b3aa.css.map",
     "main.e2745856.js.map": "/simple-landing-page/static/js/main.e2745856.js.map"
   },
   "entrypoints": [
-    "static/css/main.608f1465.css",
+    "static/css/main.7101b3aa.css",
     "static/js/main.e2745856.js"
   ]
 }
